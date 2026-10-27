@@ -2,6 +2,16 @@
 
 面向个人创作者的 Windows Galgame 创作工具。使用 Flutter + Dart，根据 2026 年 10 月 21 日提供的交互要求制作。
 
+![首页](docs/screenshots/01-home.png)
+
+在画布上拖出剧情图，给每一段对白配上背景、立绘动作和音乐，然后一键生成可以游玩的作品。
+
+| 剧情图 | 演出编辑 |
+| --- | --- |
+| ![剧情图](docs/screenshots/02-story-graph.png) | ![演出编辑](docs/screenshots/03-stage.png) |
+
+![播放器](docs/screenshots/04-player.png)
+
 ## 启动
 
 构建后的程序位于 `build/windows/x64/runner/Release/plastic_memory.exe`。运行或复制时请保留同目录中的 DLL 和 `data` 文件夹。

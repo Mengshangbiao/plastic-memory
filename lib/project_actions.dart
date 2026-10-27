@@ -92,8 +92,8 @@ class _DeleteProjectDialogState extends State<_DeleteProjectDialog> {
             const SizedBox(height: 16),
             Text(
               widget.project.isBuild
-                  ? '将永久删除这个可游玩版本及其素材副本。创作草稿和原始素材文件会保留。'
-                  : '将永久删除这个项目的创作草稿、素材副本和保存备份。已创建的可游玩版本和原始素材文件会保留。',
+                  ? '将永久删除这个可游玩版本、游玩存档及其素材副本。创作草稿和原始素材文件会保留。'
+                  : '将永久删除这个项目的创作草稿、测试存档、素材副本和保存备份。已创建的可游玩版本和原始素材文件会保留。',
             ),
             const SizedBox(height: 12),
             Text(widget.isCurrent ? '此操作无法撤销，删除后将返回首页。' : '此操作无法撤销。'),

@@ -12,6 +12,20 @@
 
 ![播放器](docs/screenshots/04-player.png)
 
+## 让 AI 也能写、也能玩
+
+一部作品就是一个 JSON 文件，不需要点鼠标。仓库里带了成套工具：
+
+```bash
+node tools/ai/validate.js my-project.json      # 按 App 内同一套规则校验
+node tools/ai/play.js my-project.json --fast   # 在终端里直接把作品玩一遍
+node tools/ai/publish.js my-project.json       # 发布到 MemoryStudio，出现在游玩列表
+node tools/ai/server.js                        # 起一个 HTTP 会话，让程序一步一步推进剧情
+```
+
+数据格式、六种节点的规则、校验清单、HTTP 协议和常见错误，都写在 **[给 AI 的教程](docs/AI-GUIDE.md)** 里；
+最小可玩示例在 [`docs/example/project.json`](docs/example/project.json)。
+
 ## 启动
 
 构建后的程序位于 `build/windows/x64/runner/Release/plastic_memory.exe`。运行或复制时请保留同目录中的 DLL 和 `data` 文件夹。
